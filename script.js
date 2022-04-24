@@ -1,6 +1,5 @@
 document.addEventListener("keydown", function (keyPress){
     let keySound;
-    // console.log(keyPress);
     switch (keyPress.code){
         case ('KeyA'):
             keySound = new Audio("white_keys/A.mp3");
